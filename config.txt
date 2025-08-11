@@ -1,0 +1,12 @@
+-- Configuração Git
+git config --global user.name Luiz599
+git config --global user.email fernando2nik@gmail.com
+
+-- Criar uma aplicação .net
+dotnet new mvc -o LuizStore
+
+-- Executar o programa
+cd LuizStore
+dotnet watch run
+
+Ctrl + C
